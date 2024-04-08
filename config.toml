@@ -31,7 +31,7 @@ theme = 'hello-friend-ng'
 
     [languages.en.params.logo]
       logoText = "Main Page"
-      logoHomeLink = "/"
+      logoHomeLink = "https://hameed0380.github.io/hameedr.github.io/"
     # or
     #
     # path = "/img/your-example-logo.svg"
