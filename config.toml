@@ -1,0 +1,66 @@
+baseURL = 'https://hameed0380.github.io/'
+languageCode = 'en-us'
+title = 'HAMEED ROLEOLA'
+theme = 'hugo-theme-hello-friend-ng'
+
+[params]
+  homeSubtitle = "Hameed's Personal Site"
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Enable sharing buttons, if you like
+  enableSharingButtons = true
+  
+  # Show a global language switcher in the navigation bar
+  enableGlobalLanguageMenu = false
+
+  # Metadata mostly used in document's head
+  description = "My new homepage or blog"
+  keywords = "homepage, blog"
+  images = [""]
+
+[taxonomies]
+    category = "blog"
+    tag      = "tags"
+    series   = "series"
+
+
+  [languages.en.params]
+    subtitle  = "A simple theme for Hugo"
+
+    [languages.en.params.logo]
+      logoText = "Main Page"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+  # And you can even create generic menu
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "about"
+
+  [[menu.main]]
+    identifier = "projects"
+    name       = "Projects"
+    url        = "projects"
+
+[[params.social]]
+key = 0
+name = "github"
+url = "https://github.com/hameed0380"
+icon = "fa-brands fa-github" 
+
+[[params.social]]
+key = 1
+name = "email"
+url = "mailto:Hameed0380@gmail.com"
+
+[[params.social]]
+key = 2
+name = "linkedin"
+url = "https://www.linkedin.com/in/hameed-roleola/"
+icon = "fa-brands fa-linkedin fa-lg"
